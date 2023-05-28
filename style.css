@@ -1,0 +1,91 @@
+/* set header background color to black, adjust spacing as well */
+header {
+   background-color: black;
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+  /* make h1, h2, and h4 all in blue font and standarize font */
+h1, h2, h4 {
+  color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* make all paragraphs and h3 the same font as other h elements */
+p, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* adjust spacing of photo from other content bellow */
+img {
+  margin-bottom: 25px;
+}
+  
+
+/* adjust spacing of line element to be consistent */
+ hr {
+   margin-bottom: 35px;
+   height: 5px;
+   background-color: black;
+ }
+
+/* make the background of the body light grey, align content, and adjust spacing */
+body {
+  text-align: center;
+  background-color: lightgray;
+}
+
+/* adjust spacing of main container */
+main {
+  margin: 50px;
+}
+
+/* adjust spacing of section and article container */
+section, article {
+   padding-bottom: 20px;
+  padding-top: 50pix;
+}
+
+/* adjust positioning of h3 */
+h3{
+  margin-bottom: 50px;
+}
+
+
+/* adjusting alignment of list elements */
+ul, ol{
+  padding-left: 40px;
+}
+
+ol {
+  text-align: center;
+}
+
+/* match font for list elements as well as adjusting alignment and spacing*/
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 100px;
+}
+/* adjust spacing and alignment of paragraphs*/
+p {
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/* adjust spacing of links */
+a {
+  margin: 20px;
+}
+/* make background of footer black. adjust sapcing */
+footer {
+  background-color:  black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+}
+ /* psuedo class for styling links  */
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: black; }
+a:active  { color: pink;  }
+ 
